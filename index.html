@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta name="msvalidate.01" content="232255F2FFFFD4BC273199D74851BA25" />
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5352256857614154"
+     crossorigin="anonymous"></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Asistente de Voz</title>
+<link rel="stylesheet" href="styles.css">
+<style>
+  footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+  }
+</style>
+</head>
+<body>
+<div id="container">
+  <div id="output" class="chat-container"></div>
+  <div id="controls">
+    <p>
+      <select id="fontSelect">
+        <option value="14px">Pequeño</option>
+        <option value="16px" selected>Mediano</option>
+        <option value="18px">Grande</option>
+      </select>
+      <select id="voiceSelect">
+        <option value="male">Voz Masculina</option>
+        <option value="female">Voz Femenina</option>
+      </select>
+      <select id="languageSelect"> <p>
+        <option value="es-ES" selected>Español</option>
+        <option value="en-US">Inglés</option>
+      </select>
+    <p>
+    <input type="range" id="rateRange" min="0.5" max="2" step="0.1" value="1">
+    <label for="rateRange">Velocidad de Voz:</label>
+    <p>
+    <input type="range" id="volumeRange" min="0" max="1" step="0.1" value="1">
+    <label for="volumeRange">Volumen de Voz:</label>
+    <p>
+    <input type="text" id="userInput" placeholder="Di algo..." autofocus>
+    <button id="submitButton">Enviar</button>
+    
+    <button id="clearButton">Limpiar campos</button>
+  </div>
+</div>
+
+<footer>
+  <p>&copy; AnnidadaTech</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

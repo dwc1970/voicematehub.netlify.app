@@ -1,0 +1,70 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('img.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  width: 80%;
+  max-width: 500px;
+  margin: 50px auto;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.chat-container {
+  padding: 10px;
+  height: 150px;
+  overflow-y: auto;
+  margin-bottom: 10px;
+  background-color: #f2f2f2;
+  border-bottom: 1px solid #ccc;
+}
+
+#controls {
+  padding: 10px;
+  background-color: #f2f2f2;
+  border-radius: 0 0 10px 10px;
+}
+
+#controls select, #controls input[type="range"], #controls input[type="text"] {
+  margin-bottom: 5px;
+  width: calc(100% - 20px);
+  padding: 8px;
+  border: 1px solid #1fb2df;
+  border-radius: 5px;
+}
+
+#submitButton, #clearButton {
+  width: calc(50% - 5px);
+  padding: 10px;
+  background-color: #0b5ed7;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: opacity 0.3s;
+}
+
+#submitButton:hover, #clearButton:hover {
+  opacity: 1;
+}
+
+button {
+  display: inline-block;
+}
